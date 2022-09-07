@@ -400,49 +400,10 @@ body{
 /*  footer-section   ends  */
 
 /* slider1-section   start  */
-
 .slider1-section{
    position: relative;
    top:0;
    padding: 50px 0;
-}
-
-
-.carousel-control.left,
-.carousel-control.right{
-    background: transparent;
-}
-
-.carousel-control.left .glyphicon-chevron-left{
-    width: auto;
-    padding:5px 5px;
-    width: 50px;
-    height: 50px;
-    color: #ffffff;
-    background-color: #f7444e;
-    border-radius: 100%;
-   
-}  
-
-
-.carousel-control.right .glyphicon-chevron-right{
-    width: auto;
-    padding:5px 5px;
-    width: 50px;
-    height: 50px;
-    color: #ffffff;
-    background-color: #f7444e;
-    border-radius: 100%;
-   
-}  
-
-.carousel-control.left .glyphicon-chevron-left:hover{
-    background-color: #002c3e;
-}
-
-
-.carousel-control.right .glyphicon-chevron-right:hover{
-    background-color: #002c3e;
 }
 
 
@@ -699,30 +660,6 @@ body{
    
 }
 
-.carousel-control.left,
-.carousel-control.right{
-    background: transparent;
-}
-
-
-.carousel-control.left .glyphicon-chevron-left{
-    position: relative;
-    top:490px;
-    left: 120px;
-    border-radius: none;
- 
- 
-}  
-
-
-.carousel-control.right .glyphicon-chevron-right{
-    position: relative;
-    top:490px;
-    left: -100px;
-   
-}  
-
-
 .slider1-section  .carousel-caption h3{
     color:#002c3e;
     margin-top: 30px;
@@ -879,12 +816,36 @@ body{
 
 }
     
-
 @media only screen and  (max-width:950px){
+    .carousel-indicators {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        z-index: 15;
+        width: 60%;
+        padding-left: 0;
+        margin-left: -30%;
+        text-align: left;
+        list-style: none;
+    }
     
 }
-    
 
+@media only screen and  (max-width:600px){
+    .carousel-indicators {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        z-index: 15;
+        width: 60%;
+        padding-left: 0;
+        margin-left: -30%;
+        text-align: center;
+        list-style: none;
+        top:80%;
+    }
+    
+}
 @media only screen and  (max-width:450px){
 
     .about-us h2 {
@@ -943,6 +904,19 @@ body{
     .footer-last img {
       width:200px;
     }
+
+    .carousel-indicators {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        z-index: 15;
+        width: 60%;
+        padding-left: 0;
+        margin-left: -30%;
+        text-align: center;
+        list-style: none;
+        top:90%;
+    }
     
 
     }  
@@ -970,6 +944,18 @@ body{
         .footer-last img {
             width:100px;
           }
+          .carousel-indicators {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            z-index: 15;
+            width: 60%;
+            padding-left: 0;
+            margin-left: -30%;
+            text-align: center;
+            list-style: none;
+            top:100%;
+        }
           
     
         }  
