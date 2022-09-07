@@ -827,6 +827,7 @@ body{
         margin-left: -30%;
         text-align: left;
         list-style: none;
+        display: none;
     }
     
 }
